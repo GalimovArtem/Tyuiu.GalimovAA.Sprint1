@@ -21,7 +21,6 @@ namespace Tyuiu.GalimovAA.Sprint1.Task2.V2
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Известны длины стороны параллелепипеда.                                 *");
             Console.WriteLine("* Вычислить площадь боковой поверхности параллелепипеда.                  *");
-            Console.WriteLine("* одинаковых массивов по длине                                            *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
