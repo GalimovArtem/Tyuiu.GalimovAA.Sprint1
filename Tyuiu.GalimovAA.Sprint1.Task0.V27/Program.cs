@@ -15,7 +15,7 @@ namespace Tyuiu.GalimovAA.Sprint1.Task0.V2
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
             Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #27                                                              *");
+            Console.WriteLine("* Вариант #27                                                             *");
             Console.WriteLine("* Выполнил: Галимов Артём Азатович | ПКТб-24-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
