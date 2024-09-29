@@ -1,6 +1,6 @@
 ﻿using Tyuiu.GalimovAA.Sprint1.Task1.V27.Lib;
 
-namespace Tyuiu.GalimovAA.Sprint1.Task0.V2
+namespace Tyuiu.GalimovAA.Sprint1.Task1.V2
 {
     class Program
     {
