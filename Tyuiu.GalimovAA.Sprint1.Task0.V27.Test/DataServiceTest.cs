@@ -1,6 +1,6 @@
-using Tyuiu.GalimovAA.Sprint1.Task0.V27.Lib;
+using Tyuiu.GalimovAA.Sprint1.Task1.V27.Lib;
 
-namespace Tyuiu.GalimovAA.Sprint1.Task0.V27.Test
+namespace Tyuiu.GalimovAA.Sprint1.Task1.V27.Test
 {
     [TestClass]
     public class DataServiceTest
