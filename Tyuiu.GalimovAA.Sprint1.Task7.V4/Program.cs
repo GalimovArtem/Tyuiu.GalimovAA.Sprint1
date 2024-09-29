@@ -40,7 +40,6 @@ namespace Tyuiu.GalimovAA.Sprint1.Task7.V4
 
             Console.WriteLine(ds.Calculate(x, y));
 
-
             Console.ReadKey();
 
 
