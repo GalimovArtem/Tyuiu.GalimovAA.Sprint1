@@ -1,6 +1,6 @@
-﻿using Tyuiu.GalimovAA.Sprint1.Task1.V27.Lib;
+﻿using Tyuiu.GalimovAA.Sprint1.Task2.V18.Lib;
 
-namespace Tyuiu.GalimovAA.Sprint1.Task1.V2
+namespace Tyuiu.GalimovAA.Sprint1.Task2.V2
 {
     class Program
     {
@@ -14,30 +14,34 @@ namespace Tyuiu.GalimovAA.Sprint1.Task1.V2
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Базовые навыки работы в С#                                        *");
-            Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #27                                                             *");
+            Console.WriteLine("* Задание #2                                                              *");
+            Console.WriteLine("* Вариант #18                                                             *");
             Console.WriteLine("* Выполнил: Галимов Артём Азатович | ПКТб-24-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу, которая запрашивает у пользователя исходные данные, *");
-            Console.WriteLine("* вычисляет результат по формуле (x+y)/2 и печатает его на экране.        *");
+            Console.WriteLine("* Известны длины стороны параллелепипеда.                                 *");
+            Console.WriteLine("* Вычислить площадь боковой поверхности параллелепипеда.                  *");
+            Console.WriteLine("* одинаковых массивов по длине                                            *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            double x, y;
-            Console.WriteLine("Введите значение Х: ");
-            x = Convert.ToDouble(Console.ReadLine());
+            int a, b, c;
+            Console.WriteLine("Введите значение Первой стороны: ");
+            a = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine("Введите значение Y: ");
-            y = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Введите значение Второй стороны: ");
+            b = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Введите значение Тртьей стороны: ");
+            c = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.Calculate(x, y));
+            Console.WriteLine(ds.CalculateSideSquareParallelepiped(a, b, c));
 
             Console.ReadKey();
 
