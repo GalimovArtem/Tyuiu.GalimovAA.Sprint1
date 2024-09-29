@@ -11,7 +11,7 @@ namespace Tyuiu.GalimovAA.Sprint1.Task1.V27.Test
             DataService ds = new DataService();
             double x = 1.0;
             double y = 2.0;
-            var res = ds.Calculate(x, y);
+            var res = ds.Calculate(x, y); 
             Assert.AreEqual(1.5, res);
         }
     }
